@@ -1,5 +1,3 @@
-# Animations using CSS Borders
-This is an attempt to create various styles of animations using CSS border property.
+# Please take a look at Gurinder Saini's IT Portfolio
 
-## Demo
-[Click here](http://codepen.io/mpsinghk/full/Eyxqbm/)
+[Click here](http://sainguri.dev.fast.sheridanc.on.ca/Assignments/Projects/gridus-samuel/layouts/samuel/)
