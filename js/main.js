@@ -153,7 +153,7 @@ function Scroll() {
         var windowWidth = $(window).width();
         if(windowWidth > 991 ){
             $(window).on('scroll', function(){
-                if( $(window).scrollTop()>900 && $(window).scrollTop()> ){
+                if( $(window).scrollTop()>900 ){
                     $('.home-two .navbar').addClass('navbar-fixed-top animated fadeInDown');
                 } else {
                     $('.home-two .navbar').removeClass('navbar-fixed-top animated fadeInDown');
