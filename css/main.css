@@ -152,6 +152,7 @@ a:focus, button:focus, .btn:focus,
     width: 30%;
     left: inherit;
     right: 0;
+
 }
 
 #navigation .navbar-nav>li {
@@ -300,17 +301,19 @@ a:focus, button:focus, .btn:focus,
 #navigation.menu-two .navbar-nav>li a {
     padding: 28px 18px;
     height: inherit;
+
     position: inherit !important;
 }
 
 #navigation.menu-two .navbar-nav>li.current a,
 #navigation.menu-two .navbar-nav>li a:hover {
     padding-bottom: 40px;
+
 }
 
 #navigation.menu-two .navbar-nav>li:last-child a:hover,
 #navigation.menu-two .navbar-nav>li:last-child.current a {
-    
+
 }
 
 #navigation.menu-two .navbar-nav>li:last-child {
@@ -332,6 +335,7 @@ a:focus, button:focus, .btn:focus,
     right:0;
     background-color: #2d3038;
     left: -100%;
+
 }
 
 #navigation .navbar:after {
@@ -339,6 +343,7 @@ a:focus, button:focus, .btn:focus,
     background-color: #2d3038;
     right: 0;
     z-index: -1;
+
 }
 
 .logo {
@@ -351,7 +356,7 @@ a:focus, button:focus, .btn:focus,
     max-width: 1170px;
     margin: 0 auto;
 }
-
+/*navbar navbar-fixed-top animated fadeInDown*/
 
 /*Dropdown CSS*/
 
@@ -370,6 +375,7 @@ ul.sub-menu {
   
 .nav.navbar-nav > li:hover > ul.sub-menu {
   display: block;
+
   -webkit-animation: fadeInUp 500ms;
   -moz-animation: fadeInUp 500ms;
   -ms-animation: fadeInUp 500ms;
@@ -381,6 +387,7 @@ ul.sub-menu {
     padding: 5px 18px;
     color: #fff;
     font-size: 13px;
+
 }
 
 @-webkit-keyframes fadeInUp {
@@ -449,7 +456,7 @@ ul.sub-menu {
 }
 
 .home-banner-one .banner-content {
-    background-image: url(images/banner.jpg);
+    background-image: url(./images/8.jpg);
     background-color: #e7e7e7;
     position: relative;
     background-position: center;
@@ -457,7 +464,7 @@ ul.sub-menu {
 }
 
 .home-two #home-banner {
-    background-image: url(images/bg.png);
+    background-image: url(../images/bg22.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
