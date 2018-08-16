@@ -9,7 +9,7 @@
         <meta name="description" content="">
 
         <title>Gurinder's Portfolio</title>
-        <link rel="icon" href="images/blackeagle.png" />
+        <link rel="icn" href="images/blackeagle.png" />
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">       
@@ -26,7 +26,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../images/ico/apple-touch-icon-57-precomposed.png">    
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../images/ico/apple-touch-icon-57-precomposed.png">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,6 +38,8 @@
         <link href="assets/custom/2.2.2/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
         <link href="assets/custom/2.2.2/css/layouts/gurinder.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
         <link href="assets/custom/2.2.2/css/colors/default.css" id="color-styles" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/jetRobot.css" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="css/animations.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -56,91 +58,198 @@
 
         <script src="assets/custom/2.2.2/js/animation.js" type="text/javascript"></script>
         <script src="assets/custom/2.2.2/js/custom.js" type="text/javascript"></script>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     
     </head>
     <body>
-        <div class="main-wrapper home-two">
-            <div id="home-banner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-9">
-                            <div class="banner-content">
-                                <div class="home-social">
-                                    <ul class="list-inline">
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
-                                    </ul>                                    
-                                </div>
-                                <div class="banner-info">
-                                    <h1>Hello, I am</h1>
-                                    <h2>Gurinder<!--<img src="images/headerimg2.PNG" alt="image" height="20%" width="15%" style="position: relative">--></h2>
-                                    <h3 class="cd-headline clip is-full-width font-accident-two-light">
-                                        <span class="cd-words-wrapper">&nbsp;
-                           <b class="is-visible">Computer Programmer</b>
+    <div class="main-wrapper home-two" >
+        <div id="home-banner" >
+            <div class="container" >
+                <div class="row">
+                    <div class="col-sm-6" id="bannerAnimate">
+                        <div class="banner-content" >
+                            <div class="home-social">
+                                <ul class="list-inline slideRight">
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="banner-info" >
+                                <h1 class="slideRight">Hello, I am</h1>
+                                <h2 class="slideRight7s">Gurinder<!--<img src="images/headerimg2.PNG" alt="image"
+                                height="20%"
+                                width="15%" style="position: relative">--></h2>
+                                <h3 class="cd-headline clip is-full-width font-accident-two-light "
+                                    style="font-weight: bolder; font-family: 'Open Sans Extrabold'; letter-spacing:
+                                    4px; font-size: 20px ">
+                                        <span class="cd-words-wrapper fadeIn8s">
+                                            <b class="is-visible">Computer Programmer</b>
                            <b>Database Expert</b>
                            <b>Web App Developer</b>
                            <b>UML Designer</b>
                         </span><br><br><div class="collapse navbar-collapse">
-                                        <nav id="mainmenu">
-                                            <ul class="nav navbar-nav"><li class="scroll"><a href="#about"><img src="images/Scroll-Down.gif" alt="SCROLL DOWN ->"
-                                                      style="position:
+                                    <nav id="mainmenu">
+                                        <ul class="nav navbar-nav fadeIn8s"><li class="scroll"><a
+                                                href="#about"><img
+                                                src="images/Scroll-Down.gif" alt="SCROLL DOWN ->"
+                                                                                                            style="position:
                         relative; left: 95%" width="20%" height="16%"></a></li></ul></nav></div> </h3>
-                                </div>
-
-
-
                             </div>
-                        </div>
-                    </div><!-- row -->
-                </div><!-- container -->
-            </div><!-- home-banner --> 
 
-            <div class="container">
-                <div id="navigation" class="menu-two">
-                    <div class="navbar">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                             <div class="navbar-brand logo">
-                                <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="Image" height="100px" width="100px" ></a>
-                            </div>
+
+
                         </div>
-                        <div class="collapse navbar-collapse">
-                            <nav id="mainmenu">
-                                <ul class="nav navbar-nav">
-                                    <li class=" scroll current"><a href="#home-banner">Home</a></li>
-                                    <li class="scroll"><a href="#about">About Me</a></li>
-                                     <li class="scroll"><a href="#skill">Skills</a></li>
-                                     <li class="scroll"><a href="#exprience">Experience</a></li>
-                                     <li class="scroll"><a href="#education">Education</a></li>
-                                     <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-                                     <li class="scroll"><a href="#contact">Contact</a></li>
-                                     <li class="scroll"><a href="#blog">Blog</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div><!-- navbar -->
-                </div><!-- navigation -->
+                    </div>
+                    <div class="col-sm-6" >
+                        <div class="containerR col-sm-6">
+                            <svg id="robot" version="1.1"  viewBox="0 0 960 570"anima>
+
+                                <g class="head">
+                                    <g class="levitate">
+                                        <!-- Top of Head 8c8c8c-->
+                                        <path fill="#8c8c8c"
+                                              d="M480.5,9.545C436.011,9.545,400,45.61,400,90.1V166h161V90.1C561,45.61,524.989,9.545,480.5,9.545z"/>
+                                        <path fill="#555555"
+                                              d="M480,10h9.04c-2.807-0.296-5.654-0.455-8.54-0.455C436.011,9.545,400,45.61,400,90.1V166h80V10z"/>
+                                    </g>
+                                </g>
+
+                                <!-- Background Smoke -->
+                                <g class="smoke-group">
+                                    <circle class="smoke delay-2" fill="#FAC784" cx="441" cy="484.667" r="22.167"/>
+                                    <circle class="smoke delay-3" fill="#FFD97F" cx="455" cy="510" r="42.5"/>
+                                    <circle class="smoke delay-4" fill="#FAC784" cx="508.258" cy="486.763" r="25.263"/>
+                                </g>
+
+                                <g class="lean">
+                                    <g class="levitate">
+                                        <!-- Jet Stream -->
+                                        <rect x="455" y="348" fill="#FFFBB5" width="54" height="163"/>
+                                        <polygon class="flame" fill="#FFD97F" points="469.333,328 493.667,328 481.63,460.667 "/>
+
+                                        <!-- Jet Pack -->
+                                        <g>
+                                            <rect x="442" y="276" fill="#CCCCCC" width="39" height="65"/>
+                                            <circle fill="#CCCCCC" cx="461.001" cy="277.087" r="19.427"/>
+                                            <rect x="481" y="276" fill="#CCCCCC" width="38" height="65"/>
+                                            <circle fill="#CCCCCC" cx="500.307" cy="277.087" r="19.427"/>
+                                            <polygon fill="#CCCCCC" points="508.885,348 454.731,348 468.616,335 494.998,335 	"/>
+                                        </g>
+
+                                        <!-- Arms -->
+                                        <path class="arm" fill="none" stroke="#8c8c8c" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M434.833,320.333c0,0,0.143-8.807-0.911-32.76"/>
+                                        <path class="arm delay-4" fill="none" stroke="#8c8c8c" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M527.28,287.573c-1.054,23.953-0.911,32.76-0.911,32.76"/>
+
+                                        <!-- Shoulders -->
+                                        <circle fill="#555555" cx="515.25" cy="279" r="17.75"/>
+                                        <circle fill="#555555" cx="447.25" cy="279" r="17.75"/>
+
+                                        <!-- Body -->
+                                        <rect x="447" y="241" fill="#8c8c8c" width="67" height="65"/>
+
+                                        <!-- Right Leg -->
+                                        <g class="leg">
+                                            <path fill="none" stroke="#8c8c8c" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M463.833,359.333c0,0,0.143-8.807-0.911-32.76"/>
+
+                                            <!-- Foot -->
+                                            <path fill="#555555" d="M479.311,361.396c-8.956-6.462-21.476-4.682-28.235,4.143c-6.759,8.823-5.219,21.372,3.351,28.339
+              L479.311,361.396z"/>
+                                        </g>
+
+                                        <!-- Left Leg -->
+                                        <g class="leg delay-6">
+                                            <path fill="none" stroke="#8c8c8c" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M499.28,326.573c-1.054,23.953-0.911,32.76-0.911,32.76"/>
+
+                                            <!-- Foot -->
+                                            <path fill="#555555" d="M510.386,393.843c8.519-7.028,9.965-19.592,3.139-28.363c-6.827-8.773-19.359-10.458-28.266-3.93
+            L510.386,393.843z"/>
+                                        </g>
+
+                                        <!-- Body -->
+                                        <circle fill="#8c8c8c" cx="480.5" cy="305.5" r="33.5"/>
+                                    </g>
+                                </g>
+
+                                <!-- Smoke -->
+                                <g class="smoke-group">
+                                    <circle class="smoke delay-8" fill="#FFD97F" cx="419" cy="517.193" r="22.193"/>
+                                    <circle class="smoke delay-6" fill="#FAC784" cx="555" cy="517.193" r="22.193"/>
+                                    <circle class="smoke delay-7" fill="#FFD97F" cx="527.28" cy="505.667" r="33.72"/>
+                                    <circle class="smoke delay-5" fill="#FFD97F" cx="485.251" cy="514.063" r="36.877"/>
+                                </g>
+
+                                <g class="head">
+                                    <g class="levitate">
+                                        <!-- Lower Jaw -->
+                                        <g>
+                                            <path fill="#8c8c8c" d="M370.065,176c-0.001,0-0.004-0.065-0.004,0.028c0,48.908,44.819,88.43,100.106,88.43
+            c55.286,0,100.105-39.46,100.105-88.368c0-0.093-0.004-0.09-0.004-0.09H370.065z"/>
+                                        </g>
+
+                                        <!-- Eyes -->
+                                        <circle fill="#FFFFFF" stroke="#8c8c8c" stroke-width="5" stroke-miterlimit="10" cx="480.235" cy="141.86" r="14.015"/>
+                                        <circle fill="#FFFFFF" stroke="#8c8c8c" stroke-width="5" stroke-miterlimit="10" cx="444.377" cy="141.86" r="14.015"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div><!-- /.container -->
+                    </div>
+                </div><!-- row -->
             </div><!-- container -->
+        </div><!-- home-banner -->
 
-            <div id="about" class="about-section section-padding">
+        <div class="container">
+            <div id="navigation" class="menu-two">
+                <div class="navbar">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand logo">
+                            <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="Image" height="100px" width="100px" ></a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <nav id="mainmenu">
+                            <ul class="nav navbar-nav">
+                                <li class=" scroll current"><a href="#home-banner">Home</a></li>
+                                <li class="scroll"><a href="#about">About Me</a></li>
+                                <li class="scroll"><a href="#skill">Skills</a></li>
+                                <li class="scroll"><a href="#exprience">Experience</a></li>
+                                <li class="scroll"><a href="#education">Education</a></li>
+                                <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+                                <li class="scroll"><a href="#contact">Contact</a></li>
+                                <li class="scroll"><a href="#blog">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><!-- navbar -->
+            </div><!-- navigation -->
+        </div><!-- container -->
+
+
+        <div id="about" class="about-section section-padding">
                 <div class="container">
 
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" id="nameAbout">
                             <div class="section-title">
                                 <h1>Gurinder Saini</h1>
                             </div>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-8" >
+                            <div id="">
                             <div class="about-info">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
@@ -151,6 +260,7 @@
                                 <p><span>Date of Birth:</span> Sept 12, 1996</p>
                                 <p><span>Address:</span> 65 Sedgewick Cir, Brampton ON, L7A 2P5 Canada</p>
                             </address>
+                            </div>
                             <ul class="achievement">
                                 <li class="achievement-info">
                                     <span class="counter">35</span>
@@ -1003,7 +1113,39 @@
             </div><!-- footer -->
         </div><!-- main wrapper -->
 
-        <!-- JS -->
+
+    <!- JS animations -->
+    <script>
+        $(window).scroll(function() {
+            $('#nameAbout').each(function(){
+                var imagePos = $(this).offset().top;
+
+                var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow+400) {
+                    $(this).addClass("bigEntrance");
+                }
+            });
+        });
+    </script>
+    <script>
+        $(window).scroll(function() {
+            $('#aboutDetailsRight').each(function(){
+                var imagePos = $(this).offset().top;
+
+                var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow+400) {
+                    $(this).addClass("slideLeft");
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $('#animatedElement').click(function() {
+            $(this).addClass("slideUp");
+        });
+    </script>
+    <!-- JS -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script> 
         <script src="js/waypoints.min.js"></script>

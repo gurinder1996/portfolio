@@ -43,7 +43,8 @@
 	.logo {
 	    height: 64px;
 	    padding: 2px 15px;
-	}	
+	}
+
 }
 
 @media (max-width: 991px) {
@@ -74,11 +75,12 @@
 	}
 	.banner-content .banner-info {
 		top: 100%;
-		margin-top: -220px;
+		margin-top: -300px;
 	}
 	#navigation .navbar:before {
 		width: 200%;
 	}
+
 }
 
 /* sm */
@@ -162,9 +164,7 @@
 	.profile-section .section-padding {
 		padding: 50px 0;
 	}
-	.banner-info {
-		bottom: 60px;
-	}
+
 	.entry-summary {
 		padding: 30px;
 	}
@@ -220,6 +220,11 @@
 	.home-one .navbar-nav {
 		margin-top: 10px;
 	}
+
+	.containerR{
+		position: relative;
+		top: 200px;
+	}
 }
 
 
@@ -235,7 +240,7 @@
 		background-color: #f9f9f9;
 	}
 	.banner-info {
-		bottom: 30px;
+		bottom: 10px;
 	}
 	.banner-info h1 {
 		font-size: 30px;
@@ -518,6 +523,11 @@
 		margin-top: -40px;
 		margin-left: 20px;
 	}
+	.containerR{
+		top: 100%;
+		margin-top: -40px;
+		margin-left: 20px;
+	}
 	.home-two .banner-info h1 {
 		font-size: 40px;
 		margin-bottom: 5px;
@@ -528,10 +538,14 @@
 	}
 	.banner-content .banner-info {
 		top: 100%;
-		margin-top: -180px;
+		margin-top: -280px;
 	}
 	.home-banner-one .banner-content {
 		padding: 15px;
+	}
+	.containerR{
+		position: relative;
+		bottom: 500px;
 	}
 }
 
@@ -545,6 +559,7 @@
 	.banner-info h3 {
 		letter-spacing: 8px;
 	}
+
 	.achievement {
 		text-align: left;
 	}
@@ -632,6 +647,10 @@
 	.home-two .home-social {
 		margin-left: 15px;
 	}
+	.containerR{
+		position: relative;
+		bottom: 500px;
+	}
 	.home-one .logo {
 		max-width: 80%;
 		height: 57px;
@@ -639,5 +658,6 @@
 	#navigation.menu-one .navbar-nav > li {
 		height: 12%;
 	}
+
 }
 
