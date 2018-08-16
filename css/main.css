@@ -456,7 +456,7 @@ ul.sub-menu {
 }
 
 .home-banner-one .banner-content {
-    background-image: url(./images/8.jpg);
+    background-image: url(../images/8.jpg);
     background-color: #e7e7e7;
     position: relative;
     background-position: center;
@@ -1599,4 +1599,89 @@ a, #contact-section li a i:hover,
     font-weight: normal;
     font-style: normal;
 
-} 
+}
+
+/*progress bar loading*/
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+progress {
+    /* Positioning */
+    position: fixed;
+    left: 0;
+    top: 99%;
+    z-index: 1000;
+
+    /* Dimensions */
+    width: 100%;
+    height: 1%;
+
+    /* Reset the apperance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* Get rid of the default border in Firefox/Opera. */
+    border: none;
+
+    /* For Firefox/IE10+ */
+    background-color: transparent;
+
+    /* For IE10+, color of the progress bar */
+    color: black;
+}
+
+progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+
+.flat::-webkit-progress-value {
+    background-color: black;
+}
+
+.flat::-moz-progress-bar {
+    background-color: black;
+}
+
+.single::-webkit-progress-value {
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(left, transparent, black);
+}
+
+.single::-moz-progress-bar {
+    background-color: transparent;
+    background-image: -moz-linear-gradient(left, transparent, black);
+}
+
+.multiple::-webkit-progress-value {
+    background-image: -webkit-linear-gradient(-45deg,
+    transparent 33%, rgba(0, 0, 0, .1) 33%,
+    rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(left, green, black);
+}
+
+.multiple::-moz-progress-bar {
+    background-image: -moz-linear-gradient(-45deg,
+    transparent 33%, rgba(0, 0, 0, .1) 33%,
+    rgba(0,0, 0, .1) 66%, transparent 66%),
+    -moz-linear-gradient(left, green, black);
+}
+
+.progress-container {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    height: .25em;
+    display: block;
+}
+
+.progress-bar {
+    background-color: black;
+    width: 50%;
+    display: block;
+    height: inherit;
+}
+

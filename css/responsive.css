@@ -58,18 +58,18 @@
       display: block;
       margin-top: 17px;
   }
-  .navbar-collapse.collapse {
-      display: none!important;
-  }
-  .navbar-nav {
-      float: none!important;
-  }
-  .navbar-nav>li {
-      float: none;
-  }
-  .collapse.in{
-      display:block !important;
-  }
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.collapse.in{
+		display:block !important;
+	}
   .home-two .home-social {
 		top: 100px;
 	}

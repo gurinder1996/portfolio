@@ -62,6 +62,11 @@
     
     </head>
     <body>
+    <progress value="0" id="progressBar" class="flat">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
     <div class="main-wrapper home-two" >
         <div id="home-banner" >
             <div class="container" >
@@ -106,7 +111,7 @@
                     </div>
                     <div class="col-sm-6" >
                         <div class="containerR col-sm-6">
-                            <svg id="robot" version="1.1"  viewBox="0 0 960 570"anima>
+                            <svg id="robot" version="1.1"  viewBox="0 -70 960 570">
 
                                 <g class="head">
                                     <g class="levitate">
@@ -149,6 +154,7 @@
                                         <!-- Shoulders -->
                                         <circle fill="#555555" cx="515.25" cy="279" r="17.75"/>
                                         <circle fill="#555555" cx="447.25" cy="279" r="17.75"/>
+                                        <circle fill="#555555" cx="477" cy="1" r="35"/>
 
                                         <!-- Body -->
                                         <rect x="447" y="241" fill="#8c8c8c" width="67" height="65"/>
@@ -220,6 +226,7 @@
                             <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="Image" height="100px" width="100px" ></a>
                         </div>
                     </div>
+
                     <div class="collapse navbar-collapse">
                         <nav id="mainmenu">
                             <ul class="nav navbar-nav">
@@ -233,6 +240,7 @@
                                 <li class="scroll"><a href="#blog">Blog</a></li>
                             </ul>
                         </nav>
+
                     </div>
                 </div><!-- navbar -->
             </div><!-- navigation -->
@@ -1153,6 +1161,8 @@
         <script src="js/inview.min.js"></script>                 
         <script src="js/easypiechart.js"></script>                 
         <script src="js/magnific-popup.min.js"></script>                                     
-        <script src="js/main.js"></script>            
+        <script src="js/main.js"></script>
+         <script src="js/scrollProgressBar.js"></script>
+
     </body>
 </html>
