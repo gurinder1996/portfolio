@@ -1,11 +1,5 @@
 /*
-    Template Name: Geek
-    Template URL: http://demo.themeregion.com/Geek
-    Author: Theme Region
-    Author URI : http://www.themeregion.com/
-    Version: 1.0
-    Description: HTML5 Responsive Personal Portfolio & Resume HTML Template.
-    Tag: HTML5, CSS3, jQuery, Responsive Template.
+
 */
 
 
@@ -52,6 +46,9 @@ ul {
     margin:0;
     padding:0;
     list-style:none;
+}
+i, span{
+    display: inline;
 }
 
 a{
