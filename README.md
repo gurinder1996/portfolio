@@ -1,1 +1,1 @@
-# [Please click here to take a look at Gurinder Saini's Portfolio](https://jujharit.github.io/portfolio/)
+# [Please click here to view Gurinder's Portfolio](https://jujharit.github.io/portfolio/)
