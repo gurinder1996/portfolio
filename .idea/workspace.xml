@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="997d2dd4-a22b-40d9-8fc5-a3bfc78b2767" name="Default Changelist" comment="-Animations added to home banner&#10;-robot added to home banner&#10;- animations added to about section&#10;- improved responsiveness of the website for mobile and tablet">
-      <change afterPath="$PROJECT_DIR$/js/emailForm.js" afterDir="false" />
+    <list default="true" id="997d2dd4-a22b-40d9-8fc5-a3bfc78b2767" name="Default Changelist" comment="1. added gradient color to background and nav bar&#10;2. parallax stars effect in background&#10;3. changed entire font color to white">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/snowFallBG.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/JS Path Augt2018/bootstrap/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/JS Path Augt2018/bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/JS Path Augt2018/bootstrap/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/JS Path Augt2018/npm/paperkit2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/JS Path Augt2018/react/robofriends/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/JS Path Augt2018/react/robofriends/src/Hello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/JS Path Augt2018/react/robofriends/src/Hello.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/jetRobot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jetRobot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,29 +37,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="664" />
-          <entry key="html" value="1341" />
+          <entry key="css" value="1021" />
+          <entry key="gitignore" value="9" />
+          <entry key="html" value="2143" />
           <entry key="js" value="38" />
+          <entry key="json" value="9" />
           <entry key="scss" value="11" />
-          <entry key="txt" value="259" />
+          <entry key="txt" value="423" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="664" />
-          <entry key="HTML" value="1341" />
+          <entry key="CSS" value="1021" />
+          <entry key="HTML" value="2143" />
+          <entry key="JSON" value="9" />
           <entry key="JavaScript" value="38" />
-          <entry key="PLAIN_TEXT" value="259" />
+          <entry key="PLAIN_TEXT" value="432" />
           <entry key="SCSS" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="11" />
+          <entry key="CSS" value="14" />
           <entry key="CoffeeScript" value="2" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="1" />
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="2" />
           <entry key="YAML" value="1" />
         </counts>
@@ -60,11 +73,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="coffee" value="2" />
-          <entry key="css" value="11" />
+          <entry key="css" value="14" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="4" />
           <entry key="ico" value="1" />
           <entry key="js" value="6" />
+          <entry key="json" value="1" />
           <entry key="scss" value="2" />
+          <entry key="txt" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -72,11 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="247" column="44" selection-start-line="247" selection-start-column="44" selection-end-line="247" selection-end-column="44" />
+            <state relative-caret-position="131">
+              <caret line="769" column="37" selection-start-line="769" selection-start-column="37" selection-end-line="769" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,10 +102,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/snowFallBG.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1135">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/animations.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="112">
+              <caret line="393" column="40" selection-start-line="393" selection-start-column="40" selection-end-line="393" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/JS Path Augt2018/bootstrap/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="3615" column="8" selection-start-line="3615" selection-start-column="8" selection-end-line="3615" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -97,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="1269" column="30" selection-start-line="1269" selection-start-column="25" selection-end-line="1269" selection-end-column="30" />
+            <state relative-caret-position="112">
+              <caret line="1597" column="23" selection-start-line="1597" selection-start-column="23" selection-end-line="1597" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -115,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="337" column="27" selection-start-line="337" selection-start-column="22" selection-end-line="337" selection-end-column="27" />
+            <state relative-caret-position="357">
+              <caret line="240" column="21" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -148,44 +191,44 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="CoffeeScript File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1.6</find>
-      <find>1</find>
-      <find>1.1s</find>
-      <find>1s</find>
-      <find>slide</find>
-      <find>floating</find>
-      <find>stretc</find>
-      <find>fade</find>
+      <find>cloudflare</find>
       <find>jquery</find>
-      <find>read</find>
-      <find>toss</find>
-      <find>red</find>
-      <find>scrollPr</find>
-      <find>black</find>
-      <find>000</find>
-      <find>0</find>
-      <find>fadeIndo</find>
-      <find>navigation</find>
-      <find>collapse</find>
-      <find>toggle</find>
-      <find>reading</find>
-      <find>span</find>
-      <find>i</find>
-      <find>i{</find>
-      <find>i</find>
-      <find>navbar</find>
+      <find>skill</find>
+      <find>home-social</find>
+      <find>bg-color</find>
+      <find>paral</find>
+      <find>entry</find>
       <find>aria</find>
+      <find>navbar-header</find>
+      <find>bootstrap</find>
+      <find>header</find>
+      <find>parallox</find>
+      <find>para</find>
+      <find>FFF</find>
+      <find>color:</find>
+      <find>h</find>
+      <find>#fff</find>
+      <find>title</find>
+      <find>text-in</find>
+      <find>parallax</find>
       <find>address</find>
+      <find>2d3038</find>
+      <find>li</find>
       <find>icons</find>
-      <find>gurinder</find>
+      <find>color:</find>
+      <find>post</find>
+      <find>color</find>
+      <find>skills</find>
+      <find>#1b1e21</find>
+      <find>navbar</find>
     </findStrings>
     <replaceStrings>
       <replace>1s</replace>
@@ -195,6 +238,9 @@
       <replace>8c8c8c</replace>
       <replace>3</replace>
       <replace>yellow</replace>
+      <replace>000</replace>
+      <replace>#1b1e21</replace>
+      <replace>#fff</replace>
       <replace>3s</replace>
     </replaceStrings>
   </component>
@@ -208,17 +254,20 @@
         <option value="$PROJECT_DIR$/css/flyingRobot.css" />
         <option value="$PROJECT_DIR$/scss/flyingRobot.scss" />
         <option value="$PROJECT_DIR$/assets/custom/2.2.2/css/style.css" />
-        <option value="$PROJECT_DIR$/css/animations.css" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/js/scrollProgressBar.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/css/jetRobot.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/emailForm.coffee" />
         <option value="$PROJECT_DIR$/js/emailForm.js" />
         <option value="$PROJECT_DIR$/css/animate.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/snowFallBG.css" />
+        <option value="$PROJECT_DIR$/css/animations.css" />
       </list>
     </option>
   </component>
@@ -227,6 +276,19 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/projects/JS Path Augt2018/npm/paperkit2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/projects/JS Path Augt2018/react/materialKitReact/node_modules" />
+    <handled-path value="$PROJECT_DIR$/projects/JS Path Augt2018/react/robofriends/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/projects/JS Path Augt2018/npm/paperkit2/package.json" />
+      <path value="$PROJECT_DIR$/projects/JS Path Augt2018/react/materialKitReact/package.json" />
+      <path value="$PROJECT_DIR$/projects/JS Path Augt2018/react/robofriends/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="106" />
@@ -271,12 +333,123 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/to-do.txt</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -300,7 +473,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534155016332</updated>
-      <workItem from="1534155018048" duration="39415000" />
+      <workItem from="1534155018048" duration="53543000" />
     </task>
     <task id="LOCAL-00001" summary="editing the title to test sync">
       <created>1534156105338</created>
@@ -365,11 +538,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534439098033</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="minor name change">
+      <created>1534505296472</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534505296473</updated>
+    </task>
+    <task id="LOCAL-00011" summary="minor name change">
+      <created>1534505390982</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534505390982</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39415000" />
+    <option name="totallyTimeSpent" value="53543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,13 +572,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49801588" visible="true" weight="0.2470238" />
-      <window_info id="Structure" order="1" sideWeight="0.5019841" side_tool="true" visible="true" weight="0.2470238" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49911818" visible="true" weight="0.2470238" />
+      <window_info id="Structure" order="1" sideWeight="0.50088185" side_tool="true" weight="0.2470238" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.18709677" />
+      <window_info anchor="bottom" id="Terminal" weight="0.08548387" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -452,7 +639,9 @@
     <MESSAGE value="adding the image in title" />
     <MESSAGE value="small changes to nav bar" />
     <MESSAGE value="-Animations added to home banner&#10;-robot added to home banner&#10;- animations added to about section&#10;- improved responsiveness of the website for mobile and tablet" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Animations added to home banner&#10;-robot added to home banner&#10;- animations added to about section&#10;- improved responsiveness of the website for mobile and tablet" />
+    <MESSAGE value="minor name change" />
+    <MESSAGE value="1. added gradient color to background and nav bar&#10;2. parallax stars effect in background&#10;3. changed entire font color to white" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. added gradient color to background and nav bar&#10;2. parallax stars effect in background&#10;3. changed entire font color to white" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GOLDENeaglejujharInfotechLogo.ico">
@@ -549,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -563,28 +745,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+    <entry file="file://$PROJECT_DIR$/to-do.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="337" column="27" selection-start-line="337" selection-start-column="22" selection-end-line="337" selection-end-column="27" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="1269" column="30" selection-start-line="1269" selection-start-column="25" selection-end-line="1269" selection-end-column="30" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="4" column="116960" selection-start-line="4" selection-start-column="116947" selection-end-line="4" selection-end-column="116960" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="240" column="21" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="247" column="44" selection-start-line="247" selection-start-column="44" selection-end-line="247" selection-end-column="44" />
+        <state relative-caret-position="131">
+          <caret line="769" column="37" selection-start-line="769" selection-start-column="37" selection-end-line="769" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/snowFallBG.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1135">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="1597" column="23" selection-start-line="1597" selection-start-column="23" selection-end-line="1597" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="393" column="40" selection-start-line="393" selection-start-column="40" selection-end-line="393" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/JS Path Augt2018/bootstrap/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="3615" column="8" selection-start-line="3615" selection-start-column="8" selection-end-line="3615" selection-end-column="8" />
         </state>
       </provider>
     </entry>

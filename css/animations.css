@@ -391,7 +391,7 @@ slideExpandUp
 	-webkit-animation-duration: 3s;
 
 	animation-timing-function: ease-out;	
-	-webkit-animation-timing-function: ease -out;
+	-webkit-animation-timing-function: ease-out;
 
 	visibility: visible !important;	
 }
@@ -1300,7 +1300,7 @@ stretchRight
 
 
 /*animated elements*/
-#nameAbout{
+.elementBigEntrance{
 
 	visibility: hidden;
 }

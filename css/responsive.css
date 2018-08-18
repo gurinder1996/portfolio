@@ -237,7 +237,8 @@
 		margin-top:8px;
 	}
 	#home-banner{
-		background-color: #f9f9f9;
+		background: linear-gradient(to right, #090a0f 0%, #1b2735 100%);
+		color: white;
 	}
 	.banner-info {
 		bottom: 10px;

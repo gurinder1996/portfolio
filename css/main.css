@@ -33,14 +33,15 @@ body {
     font-weight:normal;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
-    color: #2d3038;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #2d3038;
+
 }
+
 
 ul {
     margin:0;
@@ -52,7 +53,7 @@ i, span{
 }
 
 a{
-    color: #2d3038;
+    color: white;
 }
 
 a:hover {
@@ -153,7 +154,7 @@ a:focus, button:focus, .btn:focus,
 }
 
 #navigation .navbar-nav>li {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation.menu-one .navbar-nav>li {
@@ -224,43 +225,43 @@ a:focus, button:focus, .btn:focus,
 }
 
 #navigation .navbar-nav>li:nth-child(1) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:nth-child(2) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:nth-child(3) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:nth-child(4) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:nth-child(5) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:nth-child(6) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:nth-child(7) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:nth-child(8) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:nth-child(9) {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li:last-child {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar-nav>li .social {
@@ -314,7 +315,7 @@ a:focus, button:focus, .btn:focus,
 }
 
 #navigation.menu-two .navbar-nav>li:last-child {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
 }
 
 #navigation .navbar:before,
@@ -324,27 +325,27 @@ a:focus, button:focus, .btn:focus,
     top: 0;
     width: 100%;
     height: 76px;
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
     z-index: -1;
 }
 
 #navigation .navbar:before {
     right:0;
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
     left: -100%;
 
 }
 
 #navigation .navbar:after {
     left: 50%;
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
     right: 0;
     z-index: -1;
 
 }
 
 .logo {
-    background-color: #2d3038;
+    background: linear-gradient(to bottom, #090a0f 0%, #1b2735 100%);
     height: 76px;
     padding: 9px 25px 10px 15px;
 }
@@ -517,7 +518,7 @@ ul.sub-menu {
 }
 
 .menu-two .home-social li a {
-    color: #2d3038;
+    color: white;
     font-size: 16px;
 }
 
@@ -525,6 +526,9 @@ ul.sub-menu {
     color: #00aeef;
 }
 
+.hoverBlue:hover {
+    color: #00aeef;
+}
 
 /* About Section */
 
@@ -717,7 +721,7 @@ ul.sub-menu {
 .text-info {
     font-size: 14px;
     line-height: 24px;
-    color: #2d3038;
+    color: white;
     margin-bottom: 50px;
 }
 
@@ -902,7 +906,7 @@ img.mfp-img {
 .contact-section li,
 .contact-section li a {
     font-size: 16px;
-    color: #2d3038;
+    color: white;
 }
 
 .contact-section li a:hover {
@@ -936,7 +940,7 @@ img.mfp-img {
 }
 
 .contact-section .icons2{
-    color: #b90162;
+    color: white;
 }
 
 .contact-section .icons3 {
@@ -1062,7 +1066,7 @@ img.mfp-img {
 
 .entry-thumbnail {
     position: relative;
-    z-index: -1;
+
     overflow: hidden;
 }
 
@@ -1158,7 +1162,7 @@ img.mfp-img {
 
 .post-content h2 a  {
     font-size: 18px;
-    color: #2d3038;
+    color: white;
     display: block;
 }
 
@@ -1204,7 +1208,7 @@ img.mfp-img {
 }
 
 .profile-info address a {
-    color: #2d3038;
+    color: #white;
 }
 
 .profile-info address a:hover {
@@ -1369,7 +1373,7 @@ img.mfp-img {
 }
 
 .portfolio li a {
-    color: #2d3038;
+    color: #white;
 }
 
 .portfolio li a:hover {
@@ -1682,3 +1686,7 @@ progress::-webkit-progress-bar {
     height: inherit;
 }
 
+body{
+    background: linear-gradient(to right, #090a0f 0%, #1b2735 100%);
+    color: white;
+}
