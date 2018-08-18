@@ -73,7 +73,7 @@
 
         </style>
     </head>
-    <body>
+    <body >
     <!-- progress bar connected to scroll position of webpage- display at bottom of screen-->
     <progress value="0" id="progressBar" class="flat">
         <div class="progress-container">
@@ -81,7 +81,7 @@
         </div>
     </progress>
     <!-- snowfall background -->
-    <div class='parallax pOne'>
+    <div class='parallax animated fadeInUp'>
         <div id='stars1'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>
@@ -94,8 +94,8 @@
                         <div class="banner-content" >
 
                             <div class="banner-info" >
-                                <h1 class="slideRight ">Hello, I am</h1>
-                                <h2 class="slideRight7s">Gurinder<!--<img src="images/headerimg2.PNG" alt="image"
+                                <h1 class="animated bounceInLeft ">Hello, I am</h1>
+                                <h2 class="slideRight">Gurinder<!--<img src="images/headerimg2.PNG" alt="image"
                                 height="20%"
                                 width="15%" style="position: relative">--></h2>
                                 <h3 class="cd-headline clip is-full-width font-accident-two-light "
@@ -263,7 +263,7 @@
                 <div class="container">
 
                     <div class="row">
-                        <div class="col-sm-4 elementBigEntrance">
+                        <div class="col-sm-4 elementRubberBand">
                             <div class="section-title">
                                 <h1>About Me</h1>
                             </div>
@@ -305,7 +305,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="section-title elementBigEntrance">
+                        <div class="section-title elementRubberBand">
                             <h1>Experience</h1>
                         </div>
                     </div>
@@ -378,10 +378,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="section-title elementBigEntrance">
+                        <div class="section-title elementRubberBand">
                             <h1>Portfolio</h1>
                         </div><br><Br>
-                        <div class="button floating">
+                        <div class="button animated pulse infinite">
                             <a href="portfolio.html" class="btn btn-primary">Detailed portfolio</a><br>
 
                         </div>
@@ -507,7 +507,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="section-title elementBigEntrance">
+                            <div class="section-title elementRubberBand">
                                 <h1>Skills</h1>
                             </div>                            
                         </div>
@@ -611,7 +611,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="section-title elementBigEntrance">
+                            <div class="section-title elementRubberBand">
                                 <h1>Education</h1>
                             </div>                           
                         </div>
@@ -656,7 +656,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="section-title elementBigEntrance">
+                            <div class="section-title elementRubberBand">
                                 <h1>Contact Me</h1>
                             </div>                            
                         </div>
@@ -749,7 +749,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="section-title elementBigEntrance">
+                            <div class="section-title elementRubberBand">
                                 <h1>Blog </h1>
                             </div>                            
                         </div>
@@ -865,7 +865,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="section-title elementBigEntrance">
+                            <div class="section-title elementRubberBand">
                                 <h1>My Resume</h1>
                             </div>
                         </div>
@@ -896,12 +896,12 @@
     <!-- JS animations -->
     <script>
         $(window).scroll(function() {
-            $('.elementBigEntrance').each(function(){
+            $('.elementRubberBand').each(function(){
                 var imagePos = $(this).offset().top;
 
                 var topOfWindow = $(window).scrollTop();
                 if (imagePos < topOfWindow+400) {
-                    $(this).addClass("bigEntrance");
+                    $(this).addClass("animated rubberBand");
                 }
             });
         });

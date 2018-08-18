@@ -1398,7 +1398,7 @@ img.mfp-img {
 
 #footer {
     color: #fff;
-    background-color: #87c05e;
+    background: linear-gradient(to right, #090a0f 0%, #1b2735 100%);
     padding-top: 22px;
     padding-bottom: 10px;
 }
