@@ -1,6 +1,6 @@
 .containerR {
     margin-top: 28px;
-    max-height: 560px;
+    max-height: 1760px;
     overflow: hidden;
     width: 100%;
 }
@@ -8,7 +8,7 @@
 
 #robot {
     animation: fly-in 3s ease-out;
-    max-height: 560px;
+    max-height: 1760px;
     width: 100%;
 }
 

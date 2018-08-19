@@ -32,7 +32,7 @@
 	}
 	#navigation.menu-two .navbar-nav > li.current a, 
 	#navigation.menu-two .navbar-nav > li a:hover {
-		padding-bottom: 30px;
+		color: #3c70b4;
 	}
 	.home-two .banner-info h1 {
 		font-size: 60px;
@@ -202,7 +202,7 @@
 	}	
 	#navigation.menu-two .navbar-nav > li.current a, 
 	#navigation.menu-two .navbar-nav > li a:hover {
-		padding-bottom: 15px;
+		color: #3c70b4;
 	}
 	.home-two .banner-info h1 {
 		font-size: 50px;
@@ -223,7 +223,7 @@
 
 	.containerR{
 		position: relative;
-		top: 200px;
+		top: 100px;
 	}
 }
 
@@ -456,6 +456,7 @@
 	#navigation.menu-one .navbar-nav > li ul li i {
 		display: block;
 		font-size: 14px;
+
 	}
 	#navigation.menu-one .navbar-nav > li {
 		height: 15%;
@@ -499,7 +500,7 @@
 	#navigation.menu-two .navbar-nav > li a:hover,
 	#navigation.menu-two .navbar-nav > li:last-child a:hover, 
 	#navigation.menu-two .navbar-nav > li.current:last-child a {
-		padding-bottom: 10px;
+		color: #3c70b4;
 	}
 	.home-two .banner-info {
 		text-align: left;

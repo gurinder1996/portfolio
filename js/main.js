@@ -8,6 +8,7 @@
 # onePageNav
 # Sticky Nav
 # Mobile Toggle Control
+#animations
 
 ==================================================
 */
@@ -149,7 +150,7 @@ function Scroll() {
 // -------------------------------------------------------------
 //  Sticky Nav
 // -------------------------------------------------------------
-(function () {  
+(function () {
     function menuToggle(){
         var windowWidth = $(window).width();
         if(windowWidth > 991 ){
@@ -161,14 +162,74 @@ function Scroll() {
                 };
             });
         }else{
-            
+
             $('.home-two .navbar').addClass('navbar-fixed-top');
-                
-        };  
+
+        };
     }
 
     menuToggle();
-}()); 
+}());
 
+
+// -------------------------------------------------------------
+//  animations
+// -------------------------------------------------------------
+
+//hinge animation
+/*  $(document).ready(function () {
+
+            //this will attach the class to every target
+            $(document).on('click', function (event) {
+                $target = $(event.target);
+                $target.addClass('animated hinge');
+            });
+
+        })
+        */
+$(window).scroll(function() {
+    $('.elementRubberBand').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+400) {
+            $(this).addClass("animated rubberBand");
+        }
+    });
+});
+
+$(window).scroll(function() {
+    $('#aboutDetailsRight').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+400) {
+            $(this).addClass("slideLeft");
+        }
+    });
+});
+
+$('#animatedElement').click(function() {
+    $(this).addClass("slideUp");
+});
+
+// -------------------------------------------------------------
+//  navBar2
+// -------------------------------------------------------------
+//
+// var affixElement = '#navbar-main';
+//
+// $(affixElement).affix({
+//     offset: {
+//         // Distance of between element and top page
+//         top: function () {
+//             return (this.top = $(affixElement).offset().top)
+//         },
+//         // when start #footer
+//         bottom: function () {
+//             return (this.bottom = $('#footer').outerHeight(true))
+//         }
+//     }
+// });
 
 
