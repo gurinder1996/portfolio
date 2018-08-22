@@ -1,1 +1,1 @@
-# [Please click here to view Gurinder's Portfolio](https://jujharit.github.io/portfolio/)
+# [Please click here to view Gurinder's Portfolio](https://gurinder1996.github.io/portfolio/)
