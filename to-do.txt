@@ -1,3 +1,15 @@
-1. fix the mobile screen menu toggle issue- something wrong with bootstrap
+1. fix the mobile screen menu toggle issue- something wrong with bootstrap- set timeout of couple seconds and then menu
+collapses back
 2. fix the scroll down image in home-banner- make it appear across all screen sizes
 3. make the robot larger to cover more of screen
+4. portfolio section:
+    - add the AJAX, react capability that the section updates only (not the entire page or doesnt take to a diff.
+    portfolio page), use the single page web app that:
+        - portfolio looks like caferati's page and shows tech names/subsections above and shows the project thumbnails
+         below. when clicked on the thumbnail: only the porfolio section reloads and shows the details of selected
+         project.
+5. controll scroll on website like: http://jsfiddle.net/36dp03ur/891/
+    https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_scrollleft
+
+
+

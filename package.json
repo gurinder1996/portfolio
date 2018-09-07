@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JujharIT/portfolio/issues"
   },
-  "homepage": "https://github.com/JujharIT/portfolio#readme"
+  "homepage": "https://github.com/JujharIT/portfolio#readme",
+  "dependencies": {
+    "npm": "^6.4.1"
+  }
 }

@@ -3,27 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/flyingRobot.cs" type="text/css">
-    <style>
 
-        progress {
-            position:fixed;
-            top:15px;
-        }
-    </style>
-    <script>
-
-        $(window).scroll(function () {
-            var s = $(window).scrollTop(),
-                d = $(document).height(),
-                c = $(window).height();
-            scrollPercent = (s / (d-c)) * 100;
-            var position = scrollPercent;
-
-            $("#progressbar").attr('value', position);
-
-        });
-    </script>
 </head>
 <body >
 <progress id="progressbar" value="0" max="100"></progress>

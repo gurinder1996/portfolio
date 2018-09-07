@@ -45,6 +45,8 @@
         <!--parallox snow fall effect background -->
         <link rel="stylesheet" href="css/starsBgPortfolioPage.css">
 
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
@@ -63,11 +65,9 @@
         <script src="assets/custom/2.2.2/js/animation.js" type="text/javascript"></script>
         <script src="assets/custom/2.2.2/js/custom.js" type="text/javascript"></script>
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script>
 
-        <style>
-
-
-        </style>
+        </script>
     </head>
     <body >
     <!-- progress bar connected to scroll position of webpage- display at bottom of screen-->
@@ -81,7 +81,7 @@
         <canvas id="stars"></canvas>
     </div>
     <div class="main-wrapper home-two" >
-        <div id="home-banner" >
+        <div id="home-banner" class="scrollJack" >
             <div class="container" >
                 <div class="row">
                     <div class="col-sm-5" id="bannerAnimate">
@@ -101,7 +101,7 @@
                            <b>Web App Developer</b>
                            <b>UML Designer</b>
                         </span><br><br><div class="collapse navbar-collapse">
-                                    <nav id="mainmenu">
+                                    <nav id="mainmenu2">
                                         <ul class="fadeIn8s" id="scrollDownImg"><li
                                                 class="scroll"><a
                                                 href="#about"><img
@@ -220,7 +220,7 @@
             </div><!-- container -->
         </div><!-- home-banner -->
 
-        <nav id="navbar-main" class="navbar navbar-inverse">
+        <nav id="navbar-main" class="navbar navbar-inverse ">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -235,8 +235,8 @@
                         <ul class="nav navbar-nav">
                             <li class=" scroll current"><a href="#home-banner">Home</a></li>
                             <li class="scroll"><a href="#about">About Me</a></li>
-                            <li class="scroll"><a href="#exprience">Experience</a></li>
                             <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+                            <li class="scroll"><a href="#exprience">Experience</a></li>
                             <li class="scroll"><a href="#skill">Skills</a></li>
                             <li class="scroll"><a href="#education">Education</a></li>
                             <li class="scroll"><a href="#contact">Contact</a></li>
@@ -247,43 +247,9 @@
                 <!--/.nav-collapse -->
             </div>
         </nav>
-        <script>
-    /*    <div class="container">
-            <div id="navigation" class="menu-two">
-                <div class="navbar">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="navbar-brand logo">
-                            <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="Image" height="100px" width="100px" ></a>
-                        </div>
-                    </div>
 
-                    <div class="collapse navbar-collapse">
-                        <nav id="mainmenu">
-                            <ul class="nav navbar-nav">
-                                <li class=" scroll current"><a href="#home-banner">Home</a></li>
-                                <li class="scroll"><a href="#about">About Me</a></li>
-                                <li class="scroll"><a href="#exprience">Experience</a></li>
-                                <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-                                <li class="scroll"><a href="#skill">Skills</a></li>
-                                <li class="scroll"><a href="#education">Education</a></li>
-                                <li class="scroll"><a href="#contact">Contact</a></li>
-                                <li class="scroll"><a href="#blog">Blog</a></li>
-                            </ul>
-                        </nav>
 
-                    </div>
-                </div><!-- navbar -->
-            </div><!-- navigation -->
-        </div><!-- container --> */
-        </script>
-
-        <div id="about" class="about-section section-padding">
+        <div id="about" class="about-section section-padding scrollJack">
                 <div class="container">
 
                     <div class="row">
@@ -325,80 +291,7 @@
                 </div><!-- container -->
             </div><!-- about section -->
 
-        <div id="exprience" class="exprience-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="section-title elementRubberBand">
-                            <h1>Experience</h1>
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
-                        <div class="text-info">
-                            <h4>15 Years Exprience</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        </div>
-                        <div class="exprience">
-                            <div class="exprience-image">
-                                <img class="img-responsive" src="images/1.png" alt="Image">
-                            </div>
-                            <div class="exprience-info">
-                                <h3>Senior Graphic Designer</h3>
-                                <h5>July, 2012 - Present (4 years)</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="exprience">
-                            <div class="exprience-image">
-                                <img class="img-responsive" src="images/2.png" alt="Image">
-                            </div>
-                            <div class="exprience-info">
-                                <h3>Former Graphic Designer</h3>
-                                <h5>March, 2011 - June, 2012 (1 year, 3 Month)</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="exprience">
-                            <div class="exprience-image">
-                                <img class="img-responsive" src="images/3.png" alt="Image">
-                            </div>
-                            <div class="exprience-info">
-                                <h3>Head of Design</h3>
-                                <h5>March, 2005 - March, 2011 (6 years)</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="exprience">
-                            <div class="exprience-image">
-                                <img class="img-responsive" src="images/4.png" alt="Image">
-                            </div>
-                            <div class="exprience-info">
-                                <h3>Graphic Designer</h3>
-                                <h5>January, 2004 - March, 2005 (1 Year, 2 Months)</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="exprience">
-                            <div class="exprience-image">
-                                <img class="img-responsive" src="images/5.png" alt="Image">
-                            </div>
-                            <div class="exprience-info">
-                                <h3>Graphic Designer (intern)</h3>
-                                <h5>January, 2002 - August, 2004 (2 years, 7 months)</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- row -->
-            </div><!-- container -->
-        </div><!-- exprience section -->
-
-
-        <div id="portfolio" class="portfolio-section section-padding">
+            <div id="portfolio" class="portfolio-section section-padding scrollJack">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
@@ -412,8 +305,8 @@
                     </div>
                     <div class="col-sm-8">
                         <div class="text-info">
-                            <h4>My Recent Work: this section takes to portfolio.html, where every thing is same but menu has titles such as Java, HTML, react.js, database instead of home, contact, etc.</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <h4>"Actions speak louder than words!". Therefore, please see my action below:</h4>
+                            <p>My Recent Work: this section takes to portfolio.html, where every thing is same but menu has titles such as Java, HTML, react.js, database instead of home, contact, etc.</p>
                         </div>
                         <div class="portfolio-content">
                             <div class="row">
@@ -519,23 +412,88 @@
                 </div><!-- row -->
             </div><!-- container -->
         </div><!-- portfolio section -->
-        <!-- snowfall background
-        <div class='parallax'>
-            <div class='stars1'></div>
-            <div class='stars2'></div>
-            <div class='stars3'></div>
-        </div>
-
-         -->
 
 
-        <div id="skill" class="skill-section  section-padding">
+        <div id="exprience" class="exprience-section section-padding scrollJack">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="section-title elementRubberBand">
+                            <h1>Experience</h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="text-info">
+                            <h4>15 Years Exprience</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/1.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3>Senior Graphic Designer</h3>
+                                <h5>July, 2012 - Present (4 years)</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/2.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3>Former Graphic Designer</h3>
+                                <h5>March, 2011 - June, 2012 (1 year, 3 Month)</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/3.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3>Head of Design</h3>
+                                <h5>March, 2005 - March, 2011 (6 years)</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/4.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3>Graphic Designer</h3>
+                                <h5>January, 2004 - March, 2005 (1 Year, 2 Months)</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/5.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3>Graphic Designer (intern)</h3>
+                                <h5>January, 2002 - August, 2004 (2 years, 7 months)</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- exprience section -->
+
+
+        <div id="skill" class="skill-section  section-padding scrollJack">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="section-title elementRubberBand">
                                 <h1>Skills</h1>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="col-sm-8">
                             <div class="section-content">
@@ -597,7 +555,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
 
 
@@ -622,10 +580,10 @@
                                         <li class="chart" data-percent="30">
                                             <span class="percent percent3"></span>
                                             <h5>Latin</h5>
-                                        </li>                                    
+                                        </li>
                                     </ul>
-                                </div><!-- more skill -->                             
-                            </div>                                             
+                                </div><!-- more skill -->
+                            </div>
                         </div>
                     </div><!-- row -->
                 </div><!-- container -->
@@ -633,13 +591,13 @@
 
 
 
-            <div id="education" class="education-section  section-padding">
+            <div id="education" class="education-section  section-padding scrollJack">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="section-title elementRubberBand">
                                 <h1>Education</h1>
-                            </div>                           
+                            </div>
                         </div>
                         <div class="col-sm-8">
                             <div class="section-content">
@@ -678,13 +636,13 @@
 
 
 
-            <div id="contact" class="contact-section  section-padding">
+            <div id="contact" class="contact-section  section-padding scrollJack">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="section-title elementRubberBand">
                                 <h1>Contact Me</h1>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="col-sm-8">
                             <div class="section-content">
@@ -723,16 +681,16 @@
                                             <h3>Github Profile</h3>
                                             <a href="https://www.github.com/jujharit">https://www.github.com/jujharit</a>
                                         </li>
-                                    </ul>                            
+                                    </ul>
                                 </div>
                                 <div class="contact">
                                     <div class="contact-info">
                                         <div class="title">
                                             <div class="icons">
                                                 <i class="flaticon-paper-plane" aria-hidden="true"></i>
-                                            </div>                                
+                                            </div>
                                             <h3>Leave me a message</h3>
-                                        </div>                            
+                                        </div>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                                     </div>
                                     <form id="contact-form" class="contact-form" name="contact-form" method="post" action="#">
@@ -745,18 +703,18 @@
                                             <div class="col-sm-6">
                                                 <div class="form-group">
                                                     <input type="email" class="form-control" required="required" placeholder="Your email id">
-                                                </div> 
+                                                </div>
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" required="required" placeholder="Subject">
-                                                </div> 
+                                                </div>
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="form-group">
                                                     <textarea name="message" required="required" class="form-control" rows="7" placeholder="Your message"></textarea>
-                                                </div>             
-                                            </div>     
+                                                </div>
+                                            </div>
                                         </div>
 
                                         <div class="form-group pull-right">
@@ -771,13 +729,13 @@
                 </div><!-- container -->
             </div><!-- contact section -->
 
-            <div id="blog" class="blog-section section-padding">
+            <div id="blog" class="blog-section section-padding scrollJack">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="section-title elementRubberBand">
                                 <h1>Blog </h1>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="col-sm-8">
                             <div class="text-info">
@@ -797,9 +755,9 @@
                                             </div>
                                             <div class="entry-title">
                                                <h2><a href="blog.html">Dashboard Design: 50+ Brilliant Examples and Resources</a></h2>
-                                           </div> 
+                                           </div>
                                         </div>
-                                    </div>                        
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="entry-post">
@@ -813,9 +771,9 @@
                                             </div>
                                             <div class="entry-title">
                                                <h2><a href="blog.html">Dashboard Design: 50+ Brilliant Examples and Resources</a></h2>
-                                           </div> 
+                                           </div>
                                         </div>
-                                    </div>                        
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="entry-post">
@@ -829,9 +787,9 @@
                                             </div>
                                             <div class="entry-title">
                                                <h2><a href="blog.html">Dashboard Design: 50+ Brilliant Examples and Resources</a></h2>
-                                           </div> 
+                                           </div>
                                         </div>
-                                    </div>                        
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="entry-post">
@@ -845,9 +803,9 @@
                                             </div>
                                             <div class="entry-title">
                                                <h2><a href="#">Dashboard Design: 50+ Brilliant Examples and Resources</a></h2>
-                                           </div> 
+                                           </div>
                                         </div>
-                                    </div>                        
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="entry-post">
@@ -861,9 +819,9 @@
                                             </div>
                                             <div class="entry-title">
                                                <h2><a href="#">Dashboard Design: 50+ Brilliant Examples and Resources</a></h2>
-                                           </div> 
+                                           </div>
                                         </div>
-                                    </div>                        
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="entry-post">
@@ -877,17 +835,17 @@
                                             </div>
                                             <div class="entry-title">
                                                <h2><a href="#">Dashboard Design: 50+ Brilliant Examples and Resources</a></h2>
-                                           </div> 
+                                           </div>
                                         </div>
-                                    </div>                        
+                                    </div>
                                 </div>
-                            </div><!-- row -->                        
+                            </div><!-- row -->
                         </div>
                     </div>
                 </div><!-- container -->
             </div><!-- blog section -->
 
-            <div id="profile" class="profile-section   section-padding">
+            <div id="profile" class="profile-section section-padding scrollJack">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
@@ -906,6 +864,59 @@
                 </div><!-- container -->
             </div><!-- profile section -->
 
+
+
+        <!--<div>-->
+            <!--<section class="panel home" data-section-name="home" style="height: 627px; opacity: 0.1">-->
+                <!--<div class="inner">-->
+                    <!--<div class="vertical-center">-->
+                        <!--<h1>1</h1>-->
+
+                    <!--</div>-->
+                <!--</div>-->
+
+
+
+            <!--</section>-->
+            <!--<section class="panel panel1" data-section-name="second" style="height: 627px;">-->
+                <!--<div class="inner">-->
+                    <!--<div class="vertical-center">-->
+                        <!--<h2>2</h2>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</section>-->
+            <!--<section class="panel panel2" data-section-name="third" style="height: 627px;">-->
+                <!--<div class="inner">-->
+                    <!--<div class="vertical-center">-->
+                        <!--<h2>3</h2>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</section>-->
+            <!--<section class="panel panel3" data-section-name="fourth" style="height: 627px;">-->
+                <!--<div class="inner">-->
+                    <!--<div class="vertical-center">-->
+                        <!--<h2>4</h2>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</section>-->
+            <!--<section class="panel panel4" data-section-name="fifth" style="height: 627px;">-->
+                <!--<div class="inner">-->
+                    <!--<div class="vertical-center">-->
+                        <!--<h2>5</h2>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</section>-->
+
+            <!--<section class="panel panel5" data-section-name="sixth" style="height: 627px;">-->
+                <!--<div class="inner">-->
+                    <!--<div class="vertical-center">-->
+                        <!--<h2>6</h2>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</section>-->
+
+
+        </div>
             <div id="footer">
                 <div class="container text-center">
                     <div class="footer">
@@ -915,9 +926,23 @@
             </div><!-- footer -->
         </div><!-- main wrapper -->
 
+
+
+
+
+
+
+
+
+
     <!-- snow fall bg -->
     <script  src="js/starsBg.js"></script>
-
+    <!--<script defer>-->
+        <!--$( document ).ready(function() {-->
+            <!--$(window).scrollTop($('#skill').offset().top);-->
+            <!--alert('hello');-->
+        <!--})-->
+    <!--</script>-->
     <!-- JS -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -930,6 +955,7 @@
          <script src="js/scrollProgressBar.js"></script>
     <script  src="js/emailForm.js"></script>
     <script src='http://alertifyjs.com/build/alertify.js'></script>
+    <script src="js/jquery.scrollify.js"></script>
 
     </body>
 </html>

@@ -193,7 +193,7 @@ $(window).scroll(function() {
 
         var topOfWindow = $(window).scrollTop();
         if (imagePos < topOfWindow+400) {
-            $(this).addClass("animated rubberBand");
+            $(this).addClass("animated flash");
         }
     });
 });
@@ -232,4 +232,11 @@ $('#animatedElement').click(function() {
 //     }
 // });
 
-
+// -------------------------------------------------------------
+//  scrollify
+// -------------------------------------------------------------
+$(function() {
+    $.scrollify({
+        section : ".scrollJack",
+    });
+});
